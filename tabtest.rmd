@@ -26,13 +26,15 @@
   </ul>
 
 <div id="intro">
-### Seductive Introduction
+<h3>Seductive Introduction</h3>
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-```{r, echo=FALSE}
+```{r carstable, echo=FALSE, results='asis'}
 
-head(mtcars)
+library(xtable)
+
+print(xtable(head(mtcars)), type = "html")
 
 ```
 
@@ -40,7 +42,7 @@ head(mtcars)
 
 
 <div id="content">
-### Compelling Content
+<h3>Compelling Content</h3>
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
@@ -48,11 +50,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 </div>
 
 <div id="claims">
-### Dubious Claims as Author Overreaches
+<h3>Dubious Claims as Author Overreaches</h3>
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-```{r, echo=FALSE}
+```{r irisplot, echo=FALSE}
 
 with(iris, plot(Sepal.Length, Petal.Length))
 
@@ -63,7 +65,7 @@ with(iris, plot(Sepal.Length, Petal.Length))
 
 
 <div id="conclusion">
-### Conclusion That Returns to Original Sound Point
+<h3>Conclusion That Returns to Original Sound Point</h3>
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
