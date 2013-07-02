@@ -1,8 +1,31 @@
 
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+
+
+
+
 # The Main Title!
 
 
+<div id="tabs">
+  <ul>
+    <li><a href="#intro">Introduction</a></li>
+    <li><a href="#content">Content</a></li>
+    <li><a href="#claims">Claims</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
 
+<div id="intro">
 ### Seductive Introduction
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
@@ -13,12 +36,18 @@ head(mtcars)
 
 ```
 
+</div>
 
+
+<div id="content">
 ### Compelling Content
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
 
+</div>
+
+<div id="claims">
 ### Dubious Claims as Author Overreaches
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
@@ -29,11 +58,16 @@ with(iris, plot(Sepal.Length, Petal.Length))
 
 ```
 
+</div>
 
+
+
+<div id="conclusion">
 ### Conclusion That Returns to Original Sound Point
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
+</div>
 
-
+</div>
 
